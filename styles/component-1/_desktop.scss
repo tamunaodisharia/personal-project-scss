@@ -1,0 +1,39 @@
+#component-1{
+    width:100vw;
+    height:101px;
+    background-color: $black;
+    box-sizing: border-box;
+    max-width:2500px;
+    
+    .container-1{
+        width:60.9375%;  //1170px
+        min-width:1025px;
+        margin:auto;
+        box-sizing: border-box;
+        height:101px;
+        padding-top:27px;
+        display:flex;
+        justify-content: space-between;
+        .logo{
+            width:121px;
+            height:50px;
+            float:left;
+            display:block;
+        }
+        .ul-1{
+            list-style: none;
+            font-size:14px;
+            // margin-left:273px;
+            font-family: 'Open Sans', sans-serif;
+            margin-top: 13px;
+            display: inline-block;
+            li{
+                display: inline-block;
+                margin-left: 36px;
+            }
+        }
+        .menu {
+            display:none;
+        }
+    }
+}

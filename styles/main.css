@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #FFFFFF;
+}
+
+#component-1 {
+  width: 100vw;
+  height: 101px;
+  background-color: #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 2500px;
+}
+
+#component-1 .container-1 {
+  width: 60.9375%;
+  min-width: 1025px;
+  margin: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 101px;
+  padding-top: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#component-1 .container-1 .logo {
+  width: 121px;
+  height: 50px;
+  float: left;
+  display: block;
+}
+
+#component-1 .container-1 .ul-1 {
+  list-style: none;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 13px;
+  display: inline-block;
+}
+
+#component-1 .container-1 .ul-1 li {
+  display: inline-block;
+  margin-left: 36px;
+}
+
+#component-1 .container-1 .menu {
+  display: none;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  #component-1 {
+    height: 109px;
+  }
+  #component-1 .container-1 {
+    width: 87.1875%;
+    min-width: 279px;
+  }
+  #component-1 .container-1 .ul-1 {
+    display: none;
+  }
+  #component-1 .container-1 .menu {
+    display: inline-block;
+    background-color: #3AB6B2;
+    margin-top: 8px;
+    color: white;
+    width: 56px;
+    height: 35px;
+    font-size: 35px;
+    text-align: center;
+    line-height: 35px;
+    vertical-align: middle;
+    outline: 2px solid white;
+    outline-offset: -5px;
+    border: 5px solid #3AB6B2;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #component-1 {
+    height: 109px;
+  }
+  #component-1 .container-1 {
+    width: 93.3593%;
+    min-width: 717px;
+  }
+  #component-1 .container-1 .ul-1 {
+    display: none;
+  }
+  #component-1 .container-1 .menu {
+    display: inline-block;
+    background-color: #3AB6B2;
+    margin-top: 8px;
+    color: white;
+    width: 56px;
+    height: 35px;
+    font-size: 35px;
+    text-align: center;
+    line-height: 35px;
+    vertical-align: middle;
+    outline: 2px solid white;
+    outline-offset: -5px;
+    border: 5px solid #3AB6B2;
+  }
+}
+/*# sourceMappingURL=main.css.map */
