@@ -23,8 +23,8 @@
         .ul-1{
             list-style: none;
             font-size:14px;
-            // margin-left:273px;
-            font-family: 'Open Sans', sans-serif;
+            // font-family: 'Open Sans', sans-serif;
+            @include fonts('Sans');
             margin-top: 13px;
             display: inline-block;
             li{

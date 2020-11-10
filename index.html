@@ -7,10 +7,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="https://use.fontawesome.com/d2f1800b44.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-  <!-------------------------- component 1 ---------------------------->
+  <!-------------------------- component 1 - header ---------------------------->
     <nav id="component-1">
      <div class="container-1">
         <img class="logo" src="images/component-1/Logo.png" alt="company logo">
@@ -24,12 +25,75 @@
          <li><a src="#">BLOG</a></li>
          <li><a src="#">CONTACT</a></li>
        </ul> 
-       <i class="fa fa-bars menu" aria-hidden="true"></i>
+       <button class="menu"><i class="fa fa-bars" aria-hidden="true"></i></button>
       </div>
     </nav>
-      <!-------------------------- component 2 ---------------------------->
-      <div id="component-2">
+      <!-------------------------- component 2 - home ---------------------------->
+      <div id="home">
+        <button class="arrow left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+        <div class="container-2">
+          <p class="home-text-1">Walk With Parry</p>
+          <p class="home-text-2">You Will Love It</p>
+          <p class="home-text-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum<span class="disappear"> eget faucibus</span></p>
+          <button class="read-more">READ MORE</button>
+        </div>
+        <button class="arrow right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+      </div>
+      <!-------------------------- component 3 - about ---------------------------->
+      <div id="about">
+        <div class="section-heading">
+          <h1>WHO <span>WE ARE</span></h1>
+          <img class="seperator" src="images/about/Seperator.png">
+          <img class="heading-icon" src="images/about/Speaker.png">
+          <img class="seperator" src="images/about/Seperator.png">
+        </div>
         
+        <div class="container-3">
+          <div class="computer-screen">
+            <img class="screen" src="./images/about/screen.png" alt="screen">
+            <img class="website" src="images/about/Desktop.jpg">
+          </div>
+        <div class="text-container">
+          <h2>SOME WORDS ABOUT US</h2>
+          <p class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper vel leo a consequat. In hendrerit consectetur vestibulum. Ut pulvinar, urna non sodales lobortis, est eros iacul elit, a venenatis purus nibh rutrum diam.</p>
+          <p class="about-text-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper vel leo a conseq uat. In hendrerit cons ectetur vestibulum. Ut pulvinar, urna non sodales lobortis, est eros iaculelit, a venenatis purus nibh rutrum diam Aene
+            an in purus bibendum, hendrerit dolor quis.</p>
+          <p class="about-text-3">Lorem ipsum dolor sit amet, consectetur elit adipiscing elit. Pellentesque semper vel leo a consequat. In hendrerit.</p>
+            <div class="feature right">
+            <div class="icon"><img src="images/about/settings.png"></div>
+            <h3>FEATURES ONE</h3>
+            <p class="features-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="feature">
+            <div class="icon"><img src="images/about/location.png"></div>
+            <h3>FEATURES TWO</h3>
+            <p class="features-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="feature right">
+            <div class="icon"><img src="images/about/heart.png"></div>
+            <h3>FEATURES THREE</h3>
+            <p class="features-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="feature">
+            <div class="icon"><img src="images/about/new.png"></div>
+            <h3>FEATURES FOUR</h3>
+            <p class="features-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="check">
+            <div class="checkIcon"><img src="images/about/CheckIcon.png"></div>
+            <p class="check-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper <span class="disappear">vel leo a consequat. In hendrerit consectetur vestibulum.</span></p>
+          </div>
+          <div class="check">
+            <div class="checkIcon"><img src="images/about/CheckIcon.png"></div>
+            <p class="check-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit<span class="disappear">. Pellentesque semper vel leo a consequat.</span></p>
+          </div>
+          <div class="check">
+            <div class="checkIcon"><img src="images/about/CheckIcon.png"></div>
+            <p class="check-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque <span class="disappear">semper vel leo a consequat. In hendrerit.</span></p>
+          </div>
+          <button class="read-more-about" type="button">READ MORE</button>
+        </div>
+        </div>
       </div>
 </body>
 </html>

@@ -1,0 +1,179 @@
+h1{
+    color:$text-color-1;
+    @include fonts('Raleway');
+    font-size:31px;
+    font-weight:600;
+}
+#about{
+    width:100vw;
+    height:816px;
+    box-sizing: border-box;
+    max-width:2500px;
+    padding-top:116px;
+    .section-heading{
+        width:204px;
+        text-align: center;
+        margin:auto;
+        h1{
+            span{
+                color:$blue;
+            }
+        }
+        .seperator{
+            vertical-align: middle;
+            
+        }
+        .heading-icon{
+            margin-top:10px;
+            margin-left:5px;
+            margin-right:5px;
+        }
+
+
+    }
+    .container-3{
+        width:61.3541%;  
+        min-width:1024px;
+        margin:auto;
+        box-sizing: border-box;
+        height:579.25px;
+        justify-content: space-between;
+        margin-top:94px;
+        display:flex;
+        .computer-screen{
+            width:510px;
+            height:414px;
+            position:relative;
+            .screen{
+                width:510px;
+                height:414px;
+                
+                
+            }
+            .website{
+                position: absolute;
+                width:468.03px;
+                height:263.03px;
+                object-fit: cover;
+                object-position: top;
+                top:21px;
+                left:21px;
+            }
+        }
+       
+       
+        .text-container{
+            width:586.5px;
+            height:405px;
+            box-sizing: border-box;
+            padding-left:12px;
+            h2{
+                @extend h1;
+                margin-top:-5px;
+                letter-spacing: -0.8px;
+            }
+            .about-text{
+                @include fonts('Sans');
+                font-size:14px;
+                color:$text-color-2;
+                line-height: 27px;
+                margin-top:22px;
+                margin-bottom:8px;
+            }
+            .about-text-2{
+                @include fonts('Sans');
+                font-size:14px;
+                color:$text-color-2;
+                line-height: 27px;
+                margin-top:22px;
+                margin-bottom:8px;
+            
+                display:none;
+            }
+            .about-text-3{
+                @include fonts('Sans');
+                font-size:13px;
+                color:$text-color-2;
+                line-height: 23px;
+                margin-top:22px;
+                margin-bottom:8px;
+                display:none;
+            }
+            .right{
+                margin-right:40px;
+            }
+            .feature{
+                width:265px;
+                height:89.71px;
+                display:inline-block;
+                margin-top:38px;
+                .icon{
+                    width:63px;
+                    height:63px;
+                    line-height:75px;
+                    box-sizing: border-box;
+                    background-color: $icon-background;
+                    border:1px solid $icon-background;
+                    border-radius:50%;
+                    text-align: center;
+                    vertical-align:bottom;
+                    float:left;
+                    margin-right:27px;
+                
+                   
+                }
+                h3{
+                    color:#323232;
+                    font-size:18px;
+                    @include fonts('Raleway');
+                    display:inline-block;
+                }
+                .features-text{
+                    color:#6A6A6A;
+                    @include fonts('Sans');
+                    font-size:13px;
+                    margin-top:11px;
+                    line-height: 22px;
+                }
+            }
+            .check{
+                display:none;
+                width:99%;
+                height:53px;
+                padding-top:30px;
+                box-sizing: border-box;
+                box-sizing: border-box;
+                margin-top:3px;
+                margin-bottom:10px;
+                .checkIcon{
+                    float:left;
+                    width:16px;
+                    height:16px;
+                }
+                .check-text{
+                    color:#6A6A6A;
+                    @include fonts('Sans');
+                    font-size:13px;
+                    margin-left:12px;
+                    margin-top:0;
+                    padding-top:0;
+                    line-height: 23px;
+                    display:inline-block;
+                    width:90px;
+                }
+              
+            }
+            .read-more-about{
+                display:none;
+                width:138px;
+                height:42px;
+                background-color: $blue;
+                border:none;
+                margin-top:62px;
+                @include fonts('Raleway');
+                font-weight:700;
+                font-size:13px;
+            }
+        }
+    }
+}

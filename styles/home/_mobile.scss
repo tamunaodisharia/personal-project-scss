@@ -1,0 +1,43 @@
+@media #{$mobile}{
+    #home{
+        height:212.33px;
+        .arrow{
+            display:none;
+           
+        }
+        .container-2{
+            width:75.3125%;
+            min-width:275px;
+            height:113px;
+            top:50%;
+            left:50%;
+            transform: translate(-51%,-52%);
+        
+            .home-text-1{
+                font-size:25px;
+                line-height: 25px;
+            }
+            .home-text-2{
+                font-size:30px;
+                letter-spacing: -2px;
+                line-height:30px;
+                margin-top: 4px;
+                letter-spacing: -1px;
+            }
+            .home-text-3{
+                font-size:9px;
+                letter-spacing: -0.1px;
+                margin-top:4px;
+                .disappear{
+                    display:none;
+                }
+            }
+            .read-more{
+                width:64px;
+                height:19px;
+                font-size:7px;
+                margin-top:16px;
+            }
+        }
+    }
+}

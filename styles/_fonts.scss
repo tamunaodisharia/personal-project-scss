@@ -1,0 +1,11 @@
+@mixin fonts($font){
+    @if $font =='Raleway'{
+        font-family: 'Raleway', sans-serif;   
+    }
+    @if $font == 'Sans'{
+        font-family: 'Open Sans', sans-serif;
+    }
+    @if $font == 'Mont'{
+        font-family: 'Montserrat', sans-serif;
+    }
+}

@@ -1,0 +1,73 @@
+#home{
+    width:100vw;
+    height:757px;
+    background-image: url(../../images/home/img-1.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    max-width:2500px;
+    position:relative;
+    .arrow{
+        background: transparent;
+        border:none;
+        width:60px;
+        height:60px;
+        font-size:60px;
+        position: absolute;
+        top:41%;
+        transform: translateY(-50%);
+    }
+    .left{
+        left:24px;
+    }
+    .right{
+        right:24px;
+    }
+    .container-2{
+        width:39.0625%;  
+        min-width:750px;
+        box-sizing: border-box;
+        height:270px;
+        text-align: center;
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-48.5%,-52%);
+        .home-text-1{
+            @include fonts('Raleway');
+            font-weight: 200;
+            font-size: 62px;
+        }
+        .home-text-2{
+            @include fonts('Mont');
+            font-weight: 700;
+            font-size: 74px;
+            line-height: 75px;
+            letter-spacing: -2px;
+        }
+        .home-text-3{
+            @include fonts('Raleway');
+            font-weight: 300;
+            font-size: 20px;
+            margin-top:12px;
+        }
+        .read-more{
+            box-sizing: border-box;
+            background-color: $blue;
+            border:5px solid $blue;
+            @include fonts('Raleway');
+            font-size: 13px;
+            font-weight: 700;
+            width: 144px;
+            height: 44px;
+            margin-top:38px;
+            outline:1px solid white;
+            outline-offset: -4px;
+            
+        }
+       
+        
+        
+    }
+}
