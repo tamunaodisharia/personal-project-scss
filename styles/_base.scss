@@ -1,5 +1,8 @@
-@mixin fonts($font){
-    @if $font =='Raleway'{
-    font-family: 'Raleway', sans-serif;   
-    }
+*{
+    margin:0;
+    padding:0;
+    color:$white;
+}
+body{
+    overflow-x: hidden;
 }

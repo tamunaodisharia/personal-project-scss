@@ -38,6 +38,7 @@
                     color:$black;
                     border-bottom:1px solid $border-color;
                     padding-bottom:11px;
+                    width:280px;
                 }
                 .about-text-3{
                     display:inline-block;
@@ -59,10 +60,10 @@
                 }
                 .check{
                     display:block;
-                    width:100%;
+                    width:310px;
                     margin-top:2px;
                     .check-text{
-                        width:90%;
+                        width:80%;
                         .disappear{
                             display:none;
                         }

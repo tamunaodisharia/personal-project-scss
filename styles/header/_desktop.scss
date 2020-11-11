@@ -1,4 +1,4 @@
-#component-1{
+#header{
     width:100vw;
     height:101px;
     background-color: $black;
@@ -23,7 +23,6 @@
         .ul-1{
             list-style: none;
             font-size:14px;
-            // font-family: 'Open Sans', sans-serif;
             @include fonts('Sans');
             margin-top: 13px;
             display: inline-block;

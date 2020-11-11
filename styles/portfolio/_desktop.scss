@@ -1,0 +1,88 @@
+#portfolio{
+    width:100vw;
+    height:1017px;
+    box-sizing: border-box;
+    padding-top:104px;
+    .container-5{
+        display:grid;
+        width:100%;
+        grid-template-rows: 379px 379px;
+        grid-template-columns: repeat(5,19.9479%);
+        grid-gap:7px;
+        margin-top:83px;
+        .grid-item-1, .grid-item-3, .grid-item-5{
+            grid-column:span 2;
+        }
+        .grid-item{
+            overflow: hidden;
+            position: relative;
+            .gallery{
+                object-fit:cover;
+                object-position: center;
+                position: relative;
+            }
+            .icons{
+                display:none;
+                position: absolute;
+                z-index: 2;
+                top:50%;
+                left:50%;
+                transform: translate(-50%,-50%);
+                .icon-container{
+                    display:inline-block;
+                    width:46px;
+                    height:46px;
+                    border-radius:50%;
+                    border:1px solid $blue;
+                    line-height:50px;
+                    text-align: center;
+                    margin-left:3px;
+                    margin-right:3px;
+                    &:hover{
+                        background-color: $blue;
+                    }
+                }
+                
+            }
+            .icons-2{
+                display:none;
+            }
+            .lower-div{
+                display:none;
+                width:100%;
+                height:75px;
+                background: $black;
+                position: absolute;
+                bottom:0;
+                text-align: center;
+                padding-top:18px;
+                box-sizing: border-box;
+                .portfolio-text-1{
+                    @include fonts('Raleway');
+                    font-weight:600;
+                    font-size:17px;
+                }
+                .portfolio-text-2{
+                    @extend .portfolio-text-1;
+                    font-style:italic;
+                    font-size:13px;
+                    color:$blue;
+                    margin-top:8px;
+                }
+            }
+
+            &:hover{
+                .gallery{
+                    z-index: -1;
+                }
+                background-color: rgba(0,0,0,0.4);
+                .lower-div{
+                    display:block;
+                }
+                .icons{
+                    display:inline-block;
+                }
+            }
+        }
+    }
+}
