@@ -297,6 +297,26 @@ h1, #about .container-3 .text-container h2 {
   font-weight: 600;
 }
 
+.section-heading {
+  width: 204px;
+  text-align: center;
+  margin: auto;
+}
+
+.section-heading h1 span, .section-heading #about .container-3 .text-container h2 span, #about .container-3 .text-container .section-heading h2 span {
+  color: #3AB6B2;
+}
+
+.section-heading .seperator {
+  vertical-align: middle;
+}
+
+.section-heading .heading-icon {
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 #about {
   width: 100vw;
   height: 816px;
@@ -304,26 +324,6 @@ h1, #about .container-3 .text-container h2 {
           box-sizing: border-box;
   max-width: 2500px;
   padding-top: 116px;
-}
-
-#about .section-heading {
-  width: 204px;
-  text-align: center;
-  margin: auto;
-}
-
-#about .section-heading h1 span, #about .section-heading .container-3 .text-container h2 span, #about .container-3 .text-container .section-heading h2 span {
-  color: #3AB6B2;
-}
-
-#about .section-heading .seperator {
-  vertical-align: middle;
-}
-
-#about .section-heading .heading-icon {
-  margin-top: 10px;
-  margin-left: 5px;
-  margin-right: 5px;
 }
 
 #about .container-3 {
@@ -366,7 +366,8 @@ h1, #about .container-3 .text-container h2 {
 }
 
 #about .container-3 .text-container {
-  width: 586.5px;
+  width: 30.5208%;
+  min-width: 586.5px;
   height: 405px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -645,6 +646,139 @@ h1, #about .container-3 .text-container h2 {
   }
   #about .container-3 .text-container .read-more-about {
     display: block;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #FFFFFF;
+}
+
+#services {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100vw;
+  height: 783px;
+  background-image: url(../../images/services/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 140px;
+}
+
+#services h1, #services #about .container-3 .text-container h2, #about .container-3 .text-container #services h2 {
+  color: #FFFFFF;
+}
+
+#services .container-4 {
+  width: 61.1979%;
+  min-width: 1024px;
+  margin: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 144px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 135px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#services .container-4 .service {
+  position: relative;
+  text-align: center;
+}
+
+#services .container-4 .service .green-hexagon {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+#services .container-4 .service:hover .green-hexagon {
+  display: inline-block;
+}
+
+#services .container-4 .service .hexagon-icon {
+  position: absolute;
+  top: 72.185px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+#services .container-4 .service h3 {
+  font-size: 20px;
+  color: #3AB6B2;
+  margin-top: 39px;
+}
+
+#services .container-4 .service p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  margin-top: 14px;
+  width: 295px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  h2 {
+    font-size: 27px;
+  }
+  #services {
+    height: 1107.82px;
+    padding-top: 37px;
+  }
+  #services .container-4 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 28.8085%;
+    min-width: 295px;
+    height: 1000px;
+    margin: auto;
+  }
+  #services .container-4 .service {
+    width: 295px;
+    height: 307px;
+    margin-top: 47px;
+  }
+  #services .container-4 .service h3 {
+    font-size: 19px;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  h1, #about .container-3 .text-container h2 {
+    font-size: 29px;
+  }
+  #services {
+    height: 1287px;
+    padding-top: 68.4px;
+  }
+  #services .container-4 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 28.8085%;
+    min-width: 295px;
+    height: 1041px;
+    margin: auto;
+  }
+  #services .container-4 .service {
+    width: 295px;
+    height: 307px;
+    margin-top: 60px;
   }
 }
 /*# sourceMappingURL=main.css.map */

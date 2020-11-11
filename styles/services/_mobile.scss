@@ -1,0 +1,28 @@
+@media #{$mobile}{
+    h2{
+        font-size:27px;
+    }
+    #services{
+        height:1107.82px;
+        padding-top:37px;
+        .container-4{
+            flex-direction: column;
+            width:28.8085%;
+            min-width:295px;
+            height:1000px;
+            margin:auto;
+            .service{
+                width:295px;
+                height:307px;
+                margin-top:47px;
+                
+                h3{
+                    font-size:19px;
+                    margin-top:30px;
+                }
+                
+            }
+        }
+
+    }
+}

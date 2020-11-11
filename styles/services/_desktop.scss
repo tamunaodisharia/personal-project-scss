@@ -1,0 +1,58 @@
+#services{
+    box-sizing: border-box;
+    width:100vw;
+    height:783px;
+    background-image:url(../../images/services/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top:140px;
+    h1{
+        color:$white;
+    }
+    .container-4{
+        width:61.1979%;  
+        min-width:1024px;
+        margin:auto;
+        box-sizing: border-box;
+        height:144px;
+        justify-content: space-between;
+        margin-top:135px;
+        display:flex;
+        .service{
+            position:relative;
+            text-align: center;
+           
+            .green-hexagon{
+                display:none;
+                position:absolute;
+                top:0;
+                left:50%;
+                transform: translateX(-50%);
+               
+            }
+            &:hover .green-hexagon{
+                display:inline-block;
+            }
+            .hexagon-icon{
+                position:absolute;
+                top:72.185px;
+                left:50%;
+                transform: translate(-50%,-50%);
+                z-index:2;
+            }
+            h3{
+                font-size:20px;
+                color:$blue;
+                margin-top:39px;
+            }
+            p{
+                @include fonts('Sans');
+                font-size:14px;
+                line-height:22px;
+                margin-top:14px;
+                width:295px;
+            }
+        }
+    }
+}

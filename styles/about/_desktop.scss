@@ -4,33 +4,34 @@ h1{
     font-size:31px;
     font-weight:600;
 }
+.section-heading{
+    width:204px;
+    text-align: center;
+    margin:auto;
+    h1{
+        span{
+            color:$blue;
+        }
+    }
+    .seperator{
+        vertical-align: middle;
+        
+    }
+    .heading-icon{
+        margin-top:10px;
+        margin-left:5px;
+        margin-right:5px;
+    }
+
+
+}
 #about{
     width:100vw;
     height:816px;
     box-sizing: border-box;
     max-width:2500px;
     padding-top:116px;
-    .section-heading{
-        width:204px;
-        text-align: center;
-        margin:auto;
-        h1{
-            span{
-                color:$blue;
-            }
-        }
-        .seperator{
-            vertical-align: middle;
-            
-        }
-        .heading-icon{
-            margin-top:10px;
-            margin-left:5px;
-            margin-right:5px;
-        }
-
-
-    }
+  
     .container-3{
         width:61.3541%;  
         min-width:1024px;
@@ -63,7 +64,8 @@ h1{
        
        
         .text-container{
-            width:586.5px;
+            width:30.5208%;
+            min-width:586.5px;
             height:405px;
             box-sizing: border-box;
             padding-left:12px;
